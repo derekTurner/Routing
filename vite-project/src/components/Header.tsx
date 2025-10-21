@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom"; // Change this line
+import { NavLink } from "react-router-dom"; 
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
 function Header() {
@@ -7,7 +7,7 @@ function Header() {
 
         <Navbar expand="lg" className="bg-body-tertiary" >
       <Container>
-        <Navbar.Brand href="#home">Svelte Starter</Navbar.Brand>
+        <Navbar.Brand href="#home">Svelte Starter&nbsp;</Navbar.Brand>
 
             <Nav.Link as={NavLink} to="/" end>Home&nbsp;</Nav.Link>
             <Nav.Link as={NavLink} to="/Presentation">Presentation&nbsp;</Nav.Link>
